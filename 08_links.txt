@@ -1,0 +1,66 @@
+StackOverflow: why-is-the-pyobjc-documentation-so-bad:
+http://stackoverflow.com/questions/14422/why-is-the-pyobjc-documentation-so-bad
+
+LoginLog:
+https://github.com/MagerValp/LoginLog
+
+AutoDMG:
+https://github.com/MagerValp/AutoDMG
+
+Imagr:
+https://github.com/grahamgilbert/imagr
+
+Munki:
+https://github.com/munki/munki
+
+NSURL:
+https://developer.apple.com/reference/foundation/nsurl?language=objc
+https://developer.apple.com/reference/foundation/nsurl/1410828-fileurlwithpath?language=objc
+https://developer.apple.com/reference/foundation/nsurl/1414650-fileurlwithpath?language=objc
+
+TechNote Q&A QA1133 - Determining console user login status:
+https://developer.apple.com/library/content/qa/qa1133/_index.html
+
+SystemConfiguration:
+https://developer.apple.com/reference/systemconfiguration?language=objc
+https://developer.apple.com/reference/systemconfiguration/1517123-scdynamicstorecopyconsoleuser?language=objc
+
+Foundation functions:
+https://developer.apple.com/reference/foundation/1613024-foundation_functions?language=objc
+
+CFPreferences Utilities:
+https://developer.apple.com/reference/corefoundation/1666648-preferences_utilities?language=objc
+
+NSWorkspace:
+https://developer.apple.com/reference/appkit/nsworkspace?language=objc
+
+NSRunningApplication:
+https://developer.apple.com/reference/appkit/nsrunningapplication?language=objc
+
+NSScreen:
+https://developer.apple.com/reference/appkit/nsscreen?language=objc
+
+Notification Center:
+https://developer.apple.com/reference/foundation/nsusernotificationcenter?language=objc
+https://developer.apple.com/reference/foundation/nsusernotification?language=objc
+
+Official PyObjC documentation:
+https://pythonhosted.org/pyobjc/
+
+Frogor's stuff
+Battery status: https://gist.github.com/pudquick/134acb5f7423312effcc98ec56679136
+
+Timezone autodiscovery: https://gist.github.com/pudquick/ba235b7e90aafb9986158697a457a0d0
+
+Locking the screen:
+https://gist.github.com/pudquick/097f97f4cb67c554f04dba6b5a09a506
+
+Nibbler:
+https://github.com/pudquick/nibbler
+
+More links:
+http://www.mactech.com/articles/mactech/Vol.25/25.08/2508MacEnterprise-SystemFrameworkScripting/index.html
+
+https://managingosx.wordpress.com/2015/02/02/command-line-tools-via-python-and-cocoa/
+
+https://managingosx.wordpress.com/2015/02/05/accessing-more-frameworks-with-python-2/
