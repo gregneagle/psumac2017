@@ -63,7 +63,7 @@ def authenticate(reason=''):
 
 # main!
 if authenticate(reason='prevent all your files from being erased'):
-    print 'Chocolate purchased!'
+    print 'Your files are safe (for now)'
 else:
-    print 'No chocolate for you!'
+    print 'Erasing all files...'
     
