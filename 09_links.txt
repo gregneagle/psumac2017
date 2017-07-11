@@ -25,8 +25,8 @@ SystemConfiguration:
 https://developer.apple.com/reference/systemconfiguration?language=objc
 https://developer.apple.com/reference/systemconfiguration/1517123-scdynamicstorecopyconsoleuser?language=objc
 
-Foundation functions:
-https://developer.apple.com/reference/foundation/1613024-foundation_functions?language=objc
+Foundation file path functions:
+https://developer.apple.com/documentation/foundation/nsfilemanager?language=objc
 
 CFPreferences Utilities:
 https://developer.apple.com/reference/corefoundation/1666648-preferences_utilities?language=objc
