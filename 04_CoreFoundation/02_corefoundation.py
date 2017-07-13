@@ -11,9 +11,9 @@ import CoreFoundation
 value = subprocess.check_output(
     ['/usr/bin/defaults', 'read', 'com.apple.Finder', 'ShowHardDrivesOnDesktop']
 )
-print 'Value is %s and is type %s' % (value, type(value))
+print 'Value is %s and is type %s' % (repr(value), type(value))
 
 # get the value using CFPreferences
 value = CoreFoundation.CFPreferencesCopyAppValue('ShowHardDrivesOnDesktop',
                                                  'com.apple.Finder')
-print 'Value is %s and is type %s' % (value, type(value))
+print 'Value is %s and is type %s' % (repr(value), type(value))
