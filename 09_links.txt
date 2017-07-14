@@ -48,6 +48,10 @@ Official PyObjC documentation:
 https://pythonhosted.org/pyobjc/
 
 Frogor's stuff
+
+PyObjC bridge signatures:
+http://michaellynn.github.io/2015/08/08/learn-you-a-better-pyobjc-bridgesupport-signature/
+
 Battery status: https://gist.github.com/pudquick/134acb5f7423312effcc98ec56679136
 
 Timezone autodiscovery: https://gist.github.com/pudquick/ba235b7e90aafb9986158697a457a0d0
