@@ -50,20 +50,12 @@ from CoreFoundation import CFPreferencesAppSynchronize
 from CoreFoundation import kCFPreferencesCurrentUser, kCFPreferencesCurrentHost
 
 
-def log(message):
-    f = open(os.path.expanduser('~/Desktop/ss.log'), 'a')
-    f.write(message + "\n")
-    f.close()
-
-
 def screensaver_password_active():
     '''Is askForPassword set to True for the screensaver?'''
     is_on, is_good = CFPreferencesGetAppIntegerValue(
         'askForPassword', 'com.apple.screensaver', None)
     if is_on and is_good:
-        log("screensaver password is active")
         return True
-    log("screensaver password is not active")
     return False
 
 
@@ -83,18 +75,15 @@ def start_saver(controller):
     for iteration in range(30):
         # If the screensaver is already running do nothing
         if controller.screenSaverIsRunning():
-            log("Screensaver is running")
             return
         # Can screensaver start?
         if controller.screenSaverCanRun():
             # Start the screensaver
-            log("Starting screensaver")
             controller.screenSaverStartNow()
             return
 
 
 ss_controller = ScreenSaver.ScreenSaverController.controller()
 if not ss_controller:
-    log("No screensaver controller")
     exit(-1)
 start_saver(ss_controller)
